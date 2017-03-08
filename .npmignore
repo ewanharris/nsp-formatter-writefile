@@ -1,0 +1,7 @@
+.git
+fixtures
+test.js
+.eslintrc
+.editorconfig
+scan-nsp.txt
+coverage

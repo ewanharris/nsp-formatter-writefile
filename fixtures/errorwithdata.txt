@@ -1,0 +1,2 @@
+(+) Debug output:	{"example":"data"}
+Error: Something went wrong!

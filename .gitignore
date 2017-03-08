@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+coverage
+dist
+*.log
+.npm-debug.log
+scan-nsp.txt
