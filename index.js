@@ -16,7 +16,7 @@ function formatLikeSummary(err, data) {
 	if (err) {
 		if (data) {
 			returnString = `(+) Debug output:	${JSON.stringify(Buffer.isBuffer(data) ? data.toString() : data)}\n`;
-			return `${returnString}${err}`
+			return `${returnString}${err}`;
 		}
 		return `(+) ${err}`;
 	}

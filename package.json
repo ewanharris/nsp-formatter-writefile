@@ -8,8 +8,8 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "test": "jest",
-    "lint": "eslint index.js"
+    "test": "jest --coverage",
+    "lint": "eslint index.js test.js"
   },
   "keywords": [
     "nsp",
