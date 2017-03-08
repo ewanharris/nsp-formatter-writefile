@@ -47,7 +47,7 @@ describe('Formatting', () => {
 		const inputData = {example: 'data'};
 		m(inputErr, inputData, null);
 		const pretty = readResultFile();
-		const expected = readFixtureFile('errorWithData.txt').trim();
+		const expected = readFixtureFile('errorwithdata.txt').trim();
 		expect(pretty).toBe(expected);
 	});
 });
