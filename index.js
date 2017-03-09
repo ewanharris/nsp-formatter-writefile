@@ -2,7 +2,16 @@ const fs = require('fs');
 const Table = require('cli-table2');
 
 module.exports = function(err, data) {
-	fs.writeFileSync('scan-nsp.txt', formatLikeSummary(err, data));
+	try {
+		fs.writeFileSync('scan-nsp.txt', formatLikeSummary(err, data));
+	} catch (e) {
+		console.log(`Error: Unable to write scan-nsp file. ${e}`);
+	}
+	if(!fs.existsSync('scan-nsp.txt')) {
+		console.log('Error: scan-nsp.txt file does not exist');
+	} else {
+		console.log('Wrote scan-nsp.txt file with no issues');
+	}
 };
 
 /**

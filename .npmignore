@@ -5,3 +5,4 @@ test.js
 .editorconfig
 scan-nsp.txt
 coverage
+.travis.yml

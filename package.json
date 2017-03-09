@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "Formatter for nsp that just writes a nice table to a file",
   "main": "index.js",
+  "author": "Ewan Harris <ewanharris93@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/ewanharris/nsp-formatter-writefile#readme",
+  "bugs": "https://github.com/ewanharris/nsp-formatter-writefile/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ewanharris/nsp-formatter-writefile.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "jest": {
     "testRegex": "test.js",
     "testEnvironment": "node"
@@ -15,13 +26,11 @@
     "nsp",
     "nsp-formatter"
   ],
-  "author": "Ewan Harris <ewanharris93@gmail.com>",
-  "license": "ISC",
+  "dependencies": {
+    "cli-table2": "^0.2.0"
+  },
   "devDependencies": {
     "eslint": "^3.17.1",
     "jest-cli": "^19.0.2"
-  },
-  "dependencies": {
-    "cli-table2": "^0.2.0"
   }
 }
