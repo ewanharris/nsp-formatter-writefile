@@ -2,6 +2,9 @@ const fs = require('fs');
 const Table = require('cli-table2');
 
 module.exports = function(err, data) {
+	if(err) {
+		console.log(err);
+	}
 	try {
 		fs.writeFileSync('scan-nsp.txt', formatLikeSummary(err, data));
 	} catch (e) {
