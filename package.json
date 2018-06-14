@@ -27,7 +27,7 @@
     "nsp-formatter"
   ],
   "dependencies": {
-    "cli-table2": "^0.2.0"
+    "cli-table3": "^0.5.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
